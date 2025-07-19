@@ -8,70 +8,70 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 20% 98%;
-    --foreground: 224 20% 15%;
+    --background: 48 100% 96%;
+    --foreground: 225 100% 25%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 224 20% 15%;
+    --card: 48 100% 98%;
+    --card-foreground: 225 100% 25%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 224 20% 15%;
+    --popover: 48 100% 98%;
+    --popover-foreground: 225 100% 25%;
 
-    --primary: 213 94% 68%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 213 100% 85%;
+    --primary: 48 100% 70%;
+    --primary-foreground: 225 100% 25%;
+    --primary-glow: 48 100% 85%;
 
-    --secondary: 220 15% 95%;
-    --secondary-foreground: 224 20% 15%;
+    --secondary: 48 100% 88%;
+    --secondary-foreground: 225 100% 25%;
 
-    --muted: 220 15% 95%;
-    --muted-foreground: 224 15% 45%;
+    --muted: 48 100% 90%;
+    --muted-foreground: 225 80% 40%;
 
-    --accent: 213 94% 68%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 48 100% 75%;
+    --accent-foreground: 225 100% 25%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 48 100% 98%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 213 94% 68%;
+    --border: 48 100% 85%;
+    --input: 48 100% 88%;
+    --ring: 48 100% 70%;
 
     --radius: 1rem;
 
-    /* Customer service theme colors */
-    --chat-background: 240 20% 98%;
-    --chat-user-bubble: 213 94% 68%;
-    --chat-bot-bubble: 0 0% 100%;
-    --chat-user-text: 0 0% 100%;
-    --chat-bot-text: 224 20% 15%;
+    /* Nibbly drone theme colors - butter yellow & dark blue */
+    --chat-background: 48 100% 96%;
+    --chat-user-bubble: 48 100% 70%;
+    --chat-bot-bubble: 48 100% 98%;
+    --chat-user-text: 225 100% 25%;
+    --chat-bot-text: 225 100% 25%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(213 94% 68%), hsl(213 100% 85%));
-    --gradient-chat-bg: linear-gradient(180deg, hsl(240 20% 98%), hsl(220 15% 96%));
+    --gradient-primary: linear-gradient(135deg, hsl(48 100% 70%), hsl(48 100% 85%));
+    --gradient-chat-bg: linear-gradient(180deg, hsl(48 100% 96%), hsl(48 100% 92%));
     
     /* Shadows */
-    --shadow-message: 0 2px 8px hsl(224 20% 15% / 0.08);
-    --shadow-chat: 0 10px 40px hsl(224 20% 15% / 0.12);
+    --shadow-message: 0 2px 8px hsl(225 100% 25% / 0.15);
+    --shadow-chat: 0 10px 40px hsl(225 100% 25% / 0.20);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-background: 0 0% 98%;
+    --sidebar-background: 48 100% 96%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-foreground: 225 100% 25%;
 
-    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary: 225 100% 25%;
 
-    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-primary-foreground: 48 100% 98%;
 
-    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent: 48 100% 88%;
 
-    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-accent-foreground: 225 100% 25%;
 
-    --sidebar-border: 220 13% 91%;
+    --sidebar-border: 48 100% 85%;
 
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 48 100% 70%;
   }
 
   .dark {
